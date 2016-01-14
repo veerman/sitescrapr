@@ -1,0 +1,39 @@
+{
+  "name": "sitescrapr",
+  "version": "0.0.1",
+  "description": "Simple website crawler and scraper",
+  "homepage": "https://github.com/veerman/sitescrapr",
+  "author": {
+    "name": "Steve Veerman",
+    "email": "steve@veerman.ca",
+    "url": "steve.veerman.ca"
+  },
+  "license": "MIT",
+  "keywords": [
+  	"sitescapr",
+  	"scraper",
+  	"scraping",
+  	"scrapr",
+  	"crawler",
+  	"crawling",
+ 		"miner",
+ 		"mining",
+ 		"data",
+ 		"website",
+ 		"web",
+ 		"site"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/veerman/sitescrapr.git"
+  },
+  "main": "./start.js",
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "dependencies": {
+    "cheerio": "~0.17.0",
+    "request": "~2.39.0",
+    "tracer": "~0.7.3"
+  }
+}
